@@ -23,11 +23,11 @@ class _NavBarState extends State<NavBar> {
       return Scaffold(
         body: IndexedStack(
           index: controller.tabIndex,
-          children: const [
-            Home(),
-            Note(),
+          children: [
+            const Home(),
+            const Note(),
             Chart(),
-            Setting(),
+            const Setting(),
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(

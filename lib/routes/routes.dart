@@ -11,7 +11,7 @@ class AppPage {
     GetPage(name: navbar, page: () => const NavBar()),
     GetPage(name: home, page: () => const Home()),
     GetPage(name: note, page: () => const Note()),
-    GetPage(name: chart, page: () => const Chart()),
+    GetPage(name: chart, page: () => Chart()),
     GetPage(name: setting, page: () => const Setting()),
   ];
 
